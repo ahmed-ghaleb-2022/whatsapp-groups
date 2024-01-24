@@ -24,7 +24,7 @@ const GroupCard = ({ id, name, link, imageUrl }) => {
         alt="random image"
         className="w-24 h-24 sm:w-32 sm:h-32 rounded-full shadow-2xl shadow-slate-700"
       />
-      <h2 className="text-lg sm:text-xl font-bold mt-5">{name}</h2>
+      <h2 className="text-lg sm:text-xl font-bold mt-5 text-center">{name}</h2>
       <Link
         href={link}
         className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-3 sm:px-4 rounded transition-all duration-300"
